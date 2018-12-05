@@ -7,8 +7,30 @@
 `codebook`  
  |  
  | —— assets  
+ |   |  
+ |   ' —— images  
  |  
-  `—— README.md             当前这个自述文件  
+ | —— src  
+ |   |  
+ |   | —— annotation  
+ |   |  
+ |   | —— call-inner  
+ |   |  
+ |   ' —— content  
+ |       |  
+ |       | —— article  
+ |       |  
+ |       | —— design  
+ |       |  
+ |       | —— lang-stacks  
+ |       |  
+ |       | —— product  
+ |       |  
+ |       | —— project  
+ |       |  
+ |       ' —— team  
+ |  
+ '—— [README.md](http://github.com/leanderchen/codebook/readme.md)  
 
 
 ## 文档规则
