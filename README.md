@@ -7,16 +7,16 @@
 `codebook`  
 - assets  
   - images  
-  - src  
-    - annotation  
-    - call-inner  
-    - content  
-      - article  
-      - design  
-      - lang-stacks  
-      - product  
-      - project  
-      - team  
+- src  
+  - annotation  
+  - call-inner  
+  - content  
+    - article  
+    - design  
+    - lang-stacks  
+    - product  
+    - project  
+    - team  
 - [README.md](http://github.com/leanderchen/codebook/readme.md)  
 
 
