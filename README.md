@@ -5,32 +5,19 @@
 
 ## 目录  
 `codebook`  
- |  
- | —— assets  
- |   |  
- |   ' —— images  
- |  
- | —— src  
- |   |  
- |   | —— annotation  
- |   |  
- |   | —— call-inner  
- |   |  
- |   ' —— content  
- |       |  
- |       | —— article  
- |       |  
- |       | —— design  
- |       |  
- |       | —— lang-stacks  
- |       |  
- |       | —— product  
- |       |  
- |       | —— project  
- |       |  
- |       ' —— team  
- |  
- '—— [README.md](http://github.com/leanderchen/codebook/readme.md)  
+- assets  
+  - images  
+  - src  
+    - annotation  
+    - call-inner  
+    - content  
+      - article  
+      - design  
+      - lang-stacks  
+      - product  
+      - project  
+      - team  
+- [README.md](http://github.com/leanderchen/codebook/readme.md)  
 
 
 ## 文档规则
