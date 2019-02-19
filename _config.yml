@@ -5,15 +5,15 @@
 # Site
 title: Leander's codebook
 subtitle: code life and dream
-description:
-keywords:
-author: Leander Chen
+description: Here is leander's codebook which contains his project, work, experience and life. Hope you will like it.
+keywords: software,project,team-work,coding,design,product
+author: Leander
 language: Zh-cn
-timezone: UTC +8
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://leanderchen.github.io
+url: https://leanderchen.github.io/codebook
 root: /codebook/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -78,4 +78,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:LeanderChen/codebook.git
+  branch: publish-pages
+
