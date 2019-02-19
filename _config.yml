@@ -8,7 +8,7 @@ subtitle: code life and dream
 description: Here is leander's codebook which contains his project, work, experience and life. Hope you will like it.
 keywords: software,project,team-work,coding,design,product
 author: Leander
-language: Zh-cn
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -73,7 +73,17 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: favicon-150x150-next.png
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,3 +92,10 @@ deploy:
   repo: git@github.com:LeanderChen/codebook.git
   branch: publish-pages
 
+# Search
+## Docs: https://theme-next.org/docs/third-party-services/search-services/
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
