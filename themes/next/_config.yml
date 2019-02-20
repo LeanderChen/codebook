@@ -351,7 +351,7 @@ related_posts:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: true
-  url: https://github.com/LeanderChen/codebook/blob/master/source/ # Link for view source.
+  url: https://github.com/LeanderChen/codebook/blob/hexo-src/source/ # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
 
@@ -542,10 +542,10 @@ valine:
   notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
   verify: true # Verification code
   placeholder: Just talk about ... # comment box placeholder
-  avatar: mm # gravatar style
+  avatar:  # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
-  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
   comment_count: true # if false, comment count will only be displayed in post page, not in home page
 
 # Support for LiveRe comments system.
@@ -636,7 +636,7 @@ needmoreshare2:
 #baidu_site_verification:
 
 # CNZZ count
-# cnzz_siteid:
+cnzz_siteid: 1276252206
 
 # Application Insights
 # See: https://azure.microsoft.com/en-us/services/application-insights
@@ -688,7 +688,7 @@ leancloud_visitors:
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
+  security: false
   betterPerformance: true
 
 # Another tool to show number of visitors to each article.
@@ -785,7 +785,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: simple
+  style: flat
   icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
@@ -1041,7 +1041,7 @@ vendors:
   # valine
   # See: https://github.com/xCss/Valine
   # Example:
-  valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
+  # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.4/Valine.min.js
   # valine:
 
