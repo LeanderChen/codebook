@@ -90,7 +90,7 @@ feed:
 deploy:
   type: git
   repo: git@github.com:LeanderChen/codebook.git
-  branch: publish-pages
+  branch: master
 
 # Search
 ## Docs: https://theme-next.org/docs/third-party-services/search-services/
