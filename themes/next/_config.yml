@@ -45,12 +45,12 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine them on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /favicon-16x16-next.png
-  medium: /favicon-32x32-next.png
-  apple_touch_icon: /apple-touch-icon-next.png
-  safari_pinned_tab: /logo.svg
-  android_manifest: /manifest.json
-  ms_browserconfig: /browserconfig.xml
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+  android_manifest: /images/manifest.json
+  ms_browserconfig: /images/browserconfig.xml
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
@@ -60,7 +60,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -70,7 +70,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#808080"
+    color: "#FF3333"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -137,13 +137,14 @@ exturl: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 # External url should start with http:// or https://
 menu:
-  home: / || home
-  # tags: /tags/ || tags
+  latest: / || rocket
   categories: /categories/ || th
-  archives: /archives/ || archive
+  tags: /tags/ || tags
+  # archives: /archives/ || archive
   # schedule: /schedule/ || calendar
   about: /about/ || user
-  sitemap: /sitemap.xml || sitemap
+  blog: https://blog.tchost.cn/ || external-link
+  # sitemap: /sitemap.xml || sitemap
   # commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
@@ -151,16 +152,15 @@ menu_settings:
   icons: true
   badges: true
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
 # scheme: Muse
-scheme: Mist
+# scheme: Mist
 # scheme: Pisces
-# scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -177,14 +177,14 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/leanderchen || github
-  E-Mail: mailto:leander@tchost.cn || mail
+  E-Mail: mailto:leander@tchost.cn || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
-  YouTube: https://youtube.com/leander || youtube
+  # YouTube: https://youtube.com/leander || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
 
@@ -201,20 +201,21 @@ github_banner: https://github.com/leanderchen || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
-links_title: related site
-links_layout: block
-#links_layout: inline
+links_title: 相关站点
+# links_layout: block
+links_layout: inline
 links:
-  tcblog: //blog.tchost.cn
-  vtchost: //v.tchost.cn
-  qliao: //bbs.tchost.cn
+  辰鹄博客: //blog.tchost.cn
+  辰鹄数娱: //v.tchost.cn
+  青辽: //bbs.tchost.cn
 
 # Sidebar Avatar
 avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: //secure.gravatar.com/avatar/aa13329e6f5fc22c1b6ae37f3bbc7998?d=identicon
+  # url: //secure.gravatar.com/avatar/aa13329e6f5fc22c1b6ae37f3bbc7998?d=identicon
+  url: 
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -234,8 +235,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available values: left | right (only for Pisces | Gemini).
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Manual define the sidebar width.
   # If commented, will be default for:
@@ -681,14 +682,14 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: n5avaRTBrC5wh6In5AtQ8XXr-9Nh9j0Va #<app_id>
+  app_key: N2oknedHbwq9TPJWDerdxez1 #<app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
   security: true
-  betterPerformance: false
+  betterPerformance: true
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
