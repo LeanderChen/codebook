@@ -199,10 +199,13 @@ git clone https://github.com/LeanderChen/codebook.git -b hexo-src
 ```
 
 ***注： 这里对fork项目不做更多注解，我想你应该了解使用 `git [command] --help` 来获取使用参照***
-2. 安装 `hexo` 程序及 `next` 主题的模块依赖  
+2. 安装 `hexo` 程序、 `next` 主题及其的模块依赖  
 
 ```shell
 # if your international network is not so good, you should try cnpm: https://npm.taobao.org/
+# install hexo-cli
+npm install hexo -g
+
 # install hexo dependency
 cd codebook
 npm install
