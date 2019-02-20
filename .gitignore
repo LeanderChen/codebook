@@ -7,6 +7,6 @@ node_modules/
 package-lock.json
 docs/
 
-# with github pages building #
+# with github pages building error #
 themes/next/docs/
 themes/landscape/README.md
