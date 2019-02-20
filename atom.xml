@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Leander&#39;s codebook</title>
+  
+  <subtitle>code life and dream</subtitle>
+  <link href="/codebook/atom.xml" rel="self"/>
+  
+  <link href="https://leanderchen.github.io/codebook/"/>
+  <updated>2019-02-20T17:27:42.871Z</updated>
+  <id>https://leanderchen.github.io/codebook/</id>
+  
+  <author>
+    <name>Leander</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>DevOps</title>
+    <link href="https://leanderchen.github.io/codebook/2019/teamwork/chs/DevOps.html"/>
+    <id>https://leanderchen.github.io/codebook/2019/teamwork/chs/DevOps.html</id>
+    <published>2019-02-20T15:00:33.000Z</published>
+    <updated>2019-02-20T17:27:42.871Z</updated>
+    
+    <summary type="html">
+    
+      如何高效的组织管理软件研发过程， 控制成本的同时， 提升研发效率和软件质量？ DevOps 既是一种方法论， 同时也是一种协作文化， 我们也讨论其发展和问题。
+    
+    </summary>
+    
+      <category term="teamwork" scheme="https://leanderchen.github.io/codebook/categories/teamwork/"/>
+    
+    
+      <category term="project-management" scheme="https://leanderchen.github.io/codebook/tags/project-management/"/>
+    
+      <category term="software-development" scheme="https://leanderchen.github.io/codebook/tags/software-development/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LTR1.0-Hexo</title>
+    <link href="https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html"/>
+    <id>https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html</id>
+    <published>2019-02-19T14:57:27.000Z</published>
+    <updated>2019-02-20T18:44:38.779Z</updated>
+    
+    <summary type="html">
+    
+      基于 &quot;Hexo&quot; 构建技术博客 &quot;Leander&#39;s codebook&quot; 将采用 &quot;LTR1.0-hexo&quot; 排版规则撰写文章。此排版规则会不定期更新，根据行文风格和标准约束构建易读、友好的文档规范。
+    
+    </summary>
+    
+      <category term="opensource" scheme="https://leanderchen.github.io/codebook/categories/opensource/"/>
+    
+    
+      <category term="opensource" scheme="https://leanderchen.github.io/codebook/tags/opensource/"/>
+    
+      <category term="teamwork" scheme="https://leanderchen.github.io/codebook/tags/teamwork/"/>
+    
+  </entry>
+  
+</feed>
