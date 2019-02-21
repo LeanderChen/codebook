@@ -18,18 +18,18 @@ cache:
 # For example, you want to put your custom styles file
 # outside theme directory in root `source/_data`, set
 # `styles: source/_data/styles.styl`
-#custom_file_path:
+custom_file_path:
   # Default paths: layout/_custom/*
   #head: source/_data/head.swig
   #header: source/_data/header.swig
   #sidebar: source/_data/sidebar.swig
 
   # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
+  # variables: source/_data/css/variables.styl
   # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
+  # mixins: source/_data/css/mixins.styl
   # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
+  styles: source/_data/css/custom.styl
 
 
 # ---------------------------------------------------------------
@@ -70,7 +70,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#FF3333"
+    color: "#999"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -366,7 +366,7 @@ disable_baidu_tranformation: true
 mobile_layout_economy: true
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
-android_chrome_color: "#222"
+android_chrome_color: "#000"
 
 # Custom Logo
 # Do not support Scheme Mist currently.
@@ -807,8 +807,8 @@ tabs:
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
   enable: true
-  color: "#37c6c0"
-  height: 2px
+  color: "#fc6423"
+  height: 3px
 
 
 #! ---------------------------------------------------------------
@@ -885,9 +885,9 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
-  size: 300
-  alpha: 0.6
+  enable: true
+  size: 500
+  alpha: 0.3
   zIndex: -1
 
 # Script Vendors.

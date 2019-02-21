@@ -2,23 +2,24 @@
 title: {{ title }}
 date: {{ date }}
 categories: 
-- [产业研析,创业领域]
-- [前端研发,后端研发，技术运营]
-- [产品运营,品牌营销]
+- [industry_analysis, entrepreneurship]
+- [frontend, backend, technology_operation]
+- [product_operation, brand_marketing]
 tags:
-- 物联网
-- AI智能
-- 区块链
-- 垂直行业
-- 技术栈
-- 工具流
-- 工作流
-- 前沿研发
-- 开源协作
-- 产品设计
-- UI交互
-- 迭代演进
-- 品牌设计
-- 广告传播
+- IOT
+- AI
+- block_chain
+- vertical_industry
+- technology_stack
+- toolflow
+- workflow
+- frontier_research
+- opensource
+- teamwork
+- product_design
+- UI_interaction
+- iterative_evolution
+- brand_design
+- advertising_communication
 description: 
 ---

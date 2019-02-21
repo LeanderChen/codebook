@@ -1,6 +1,6 @@
 ---
 title: LTR1.0-hexo
-layout: page
+layout: post
 categories:
   - opensource
 tags:
