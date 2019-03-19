@@ -55,7 +55,7 @@ blah blah blah
 {% endcenterquote %}
 ```
 
-{% blockquote David Levithan, Wide Awake https://leanderchen.github.io/codebook leander's codebook %}  
+{% blockquote David Levithan, Wide Awake https://leanderchen.github.io/codebook/ leander's codebook %}  
 Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.  
 {% endblockquote %}  
 
