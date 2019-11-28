@@ -43,15 +43,65 @@ description: 基于 "Hexo" 构建技术博客 "Leander's codebook" 将采用 "LT
 
 1. **quote 引用**  
 
-```htt
-{% blockquote David Levithan, Wide Awake %}
-Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
+```swig
+<!-- 普通引用 -->
+{% blockquote [author[, source]] [link] [source_link_title] %}
+content
 {% endblockquote %}
+
+<!-- 居中引用 -->
+{% centerquote %}
+blah blah blah
+{% endcenterquote %}
 ```
 
-{% blockquote David Levithan, Wide Awake %}
-Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
-{% endblockquote %}
+{% blockquote David Levithan, Wide Awake https://leanderchen.github.io/codebook/ leander's codebook %}  
+Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.  
+{% endblockquote %}  
+
+{% centerquote %}  
+Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.  
+{% endcenterquote %}  
+2. **note 标注**  
+
+```swig
+<!-- 来自bootstrap设计，支持类型：default、primary、success、info、warning、danger -->
+{% note class_name %}
+Content (md partial supported)
+{% endnote %}
+```
+
+{% note default %}  
+default 类，用于段内参考引用  
+{% endnote %}  
+{% note primary %}  
+primary 类，用于不确定、待验证标记  
+[ ] item1  
+[ ] item2  
+{% endnote %}  
+{% note success %}  
+success 类，用于已确认、已完成标记  
+[x] item1  
+[x] item2  
+{% endnote %}  
+{% note info %}  
+info 类，用于一般性标记、补充说明  
+{% endnote %}  
+{% note warning %}  
+warning 类，用于警示、提醒、注意说明  
+{% endnote %}  
+{% note danger %}  
+danger 类，用于禁止、废弃、危险标记  
+[!] item1  
+[!] item2  
+{% endnote %}  
+
+特别地，我们使用 `no-icon` 标记贴注文章的参考引用内容。
+{% note no-icon %}  
+参考引用：  
+1 title. date. [source]  
+2 title. date. [source]  
+{% endnote %}  
 2. **code block 代码块**  
 
 优先使用 `markdown code block` 来获得充分的标准兼容，当代码块较复杂时可以使用 `hexo` 代码块标签实现更强大的代码块示例。
@@ -75,40 +125,37 @@ code snippet
 
 {% include_code hello_word lang:text test/hello_world.txt %}
 
-{% codeblock hexo模板标签 https://hexo.bootcss.com/ 类型标题外链示例.snippet %}
-_.compact([0, 1, false, 2, '', 3]);
-=> [1, 2, 3]
-{% endcodeblock %}
+{% codeblock hexo模板标签 https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html codeblock_demo.snippet %}  
+_.compact([0, 1, false, 2, '', 3]);  
+=> [1, 2, 3]  
+{% endcodeblock %}  
 3. **pdf preview**  
 本博客集成了pdf预览组组件，通过如下代码集成预览下载。  
 
 - pdf组件
 
 ```swig
-{% pdf https://pdfurl %}
+{% pdf https://leanderchen.github.io/codebook/downloads/demo/blank_pdf.pdf %}
 ```
 
-- 下载pdf
-
-```swig
-{% pdf http://7xov2f.com1.z0.glb.clouddn.com/bash_freshman.pdf %}
-本地连接：
-{% pdf ./pdf名字.pdf %}
-```
-
+{% pdf https://leanderchen.github.io/codebook/downloads/demo/blank_pdf.pdf %}  
 ***注： 除有其他固定平台托管的文档，应该引入到项目文件中。***  
 4. **media**  
 
 - 图片内容
 
-优先使用markdown默认语法，当对图片尺寸需加以限定时使用`swig img`标签。
+优先使用Hexo默认语法，当对图片尺寸需加以限定时使用`swig img`标签，该图片将会被索引显示在列表页。
 
-```markdown
-(alt_text)[/path/to/image]
-```
+  `Hexo` 的 `swig` 语法标签
 
 ```swig
 {% img [class names] /path/to/image [width] [height] [title text [alt text]] %}
+```
+
+  `markdown` 原生插入图片
+
+```markdown
+(alt_text)[/path/to/image]
 ```
 
 - 视频内容
@@ -127,7 +174,7 @@ _.compact([0, 1, false, 2, '', 3]);
 {% link text url [external] [title] %}
 ```
 
-- 其他引用
+- 引用组件
 
 ```swig
 <!-- 引用文章 -->
@@ -216,7 +263,7 @@ npm install
 ```
 
 ***提示：推荐使用 `WebStorm` ，你可以简单快速的使用 `git` 。 你也可以使用 `Visual Studio Code`并安装 `git for [platform]`。***
-3. 安装 `hexo-server` 、 `` 等本地开发工具
+3. 安装 `hexo-server` 等本地开发工具
 
 ```shell
 # install node-cli tools for hexo
