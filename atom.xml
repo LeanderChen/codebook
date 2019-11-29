@@ -6,7 +6,7 @@
   <link href="/codebook/atom.xml" rel="self"/>
   
   <link href="https://leanderchen.github.io/codebook/"/>
-  <updated>2019-11-29T02:08:00.556Z</updated>
+  <updated>2019-11-29T02:19:30.526Z</updated>
   <id>https://leanderchen.github.io/codebook/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://leanderchen.github.io/codebook/2019/brand-marketing/chs/infomation_addiction.html"/>
     <id>https://leanderchen.github.io/codebook/2019/brand-marketing/chs/infomation_addiction.html</id>
     <published>2019-03-04T06:02:56.000Z</published>
-    <updated>2019-11-29T02:08:00.556Z</updated>
+    <updated>2019-11-29T02:19:30.526Z</updated>
     
     <summary type="html">
     
@@ -85,15 +85,15 @@
   </entry>
   
   <entry>
-    <title>LTR1.0-Hexo</title>
-    <link href="https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html"/>
-    <id>https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html</id>
+    <title>开源许可证</title>
+    <link href="https://leanderchen.github.io/codebook/2019/opensource/chs/opensource_license.html"/>
+    <id>https://leanderchen.github.io/codebook/2019/opensource/chs/opensource_license.html</id>
     <published>2019-02-19T14:57:27.000Z</published>
-    <updated>2019-11-28T04:34:57.445Z</updated>
+    <updated>2019-11-29T02:22:18.817Z</updated>
     
     <summary type="html">
     
-      基于 &quot;Hexo&quot; 构建技术博客 &quot;Leander&#39;s codebook&quot; 将采用 &quot;LTR1.0-hexo&quot; 排版规则撰写文章。此排版规则会不定期更新，根据行文风格和标准约束构建易读、友好的文档规范。
+      在我们的开源、商业项目中总不可避免地引用或参考开源项目，如何正确对待开源许可协议，保障原作者和自身合法合规和利益？这里是 Leander 团队开发开源方案原则，仅作为参考。
     
     </summary>
     
@@ -107,15 +107,15 @@
   </entry>
   
   <entry>
-    <title>Open Source License</title>
-    <link href="https://leanderchen.github.io/codebook/2019/opensource/chs/opensource_license.html"/>
-    <id>https://leanderchen.github.io/codebook/2019/opensource/chs/opensource_license.html</id>
+    <title>LTR1.0-Hexo</title>
+    <link href="https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html"/>
+    <id>https://leanderchen.github.io/codebook/2019/opensource/chs/write_rules.html</id>
     <published>2019-02-19T14:57:27.000Z</published>
-    <updated>2019-11-28T04:34:57.440Z</updated>
+    <updated>2019-11-28T04:34:57.445Z</updated>
     
     <summary type="html">
     
-      在我们的开源、商业项目中总不可避免地引用或参考开源项目，如何正确对待开源许可协议，保障原作者和自身合法合规和利益？这里是 Leander 团队开发开源方案原则，仅作为参考。
+      基于 &quot;Hexo&quot; 构建技术博客 &quot;Leander&#39;s codebook&quot; 将采用 &quot;LTR1.0-hexo&quot; 排版规则撰写文章。此排版规则会不定期更新，根据行文风格和标准约束构建易读、友好的文档规范。
     
     </summary>
     
