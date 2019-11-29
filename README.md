@@ -51,7 +51,7 @@
 ## 协作者
 
 - 项目运营组
-  - leander
+  - @[leander](http://leander.im/)
   - ……
 
 - 特邀专家

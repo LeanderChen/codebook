@@ -8,7 +8,11 @@ subtitle: code life and dream
 description: Here is leander's codebook which contains his project, work, experience and life. Hope you will like it.
 keywords: software,project,team-work,coding,design,product
 author: Leander
-language: zh-CN
+language:
+- zh-CN
+- en
+- es
+- ja
 timezone: Asia/Shanghai
 
 # URL

@@ -1,5 +1,5 @@
 ---
-title: Open Source License
+title: 开源许可证
 layout: post
 categories:
   - opensource
@@ -11,7 +11,7 @@ description: 在我们的开源、商业项目中总不可避免地引用或参�
 ---
 
 {% centerquote %}  
-开发源代码是促进软件业态繁荣的重要助力，也是开发组织团队建立生态标准的重要发布途径。
+开放源代码是促进软件业态繁荣的重要助力，也是开发组织团队建立生态标准的重要发布途径。  
 无论是组织，或是个人，你都需要通过开放源代码许可（Open Source License）来申明明确发布者与引用者间的使用协议。  
 {% endcenterquote %}
 
