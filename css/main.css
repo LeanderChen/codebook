@@ -1391,7 +1391,7 @@ pre .javascript .function {
 @media (max-width: 991px) {
   .github-corner >svg {
     fill: #fff !important;
-    color: #222 !important;
+    color: #000 !important;
   }
   .github-corner .github-corner:hover .octo-arm {
     animation: none;
@@ -1970,8 +1970,8 @@ pre .javascript .function {
   z-index: 9999;
   display: block;
   width: 0;
-  height: 2px;
-  background: #37c6c0;
+  height: 3px;
+  background: #fc6423;
 }
 .sidebar {
   position: fixed;
@@ -2170,7 +2170,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffad;
+  background: #a38e94;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2332,7 +2332,7 @@ pre .javascript .function {
 .with-love {
   display: inline-block;
   margin: 0 5px;
-  color: #FF3333;
+  color: #999;
 }
 .powered-by,
 .theme-info {
@@ -3484,4 +3484,7 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+.fa {
+  font: normal normal normal 14px/1 FontAwesome !important;
 }
